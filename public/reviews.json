@@ -1,0 +1,24 @@
+[
+    {
+      "name": "John Doe",
+      "position": "CEO",
+      "company": "Company",
+      "rating": "⭐⭐⭐⭐⭐",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula magna vel risus tempor, sed feugiat quam iaculis."
+    },
+    {
+      "name": "Jane Smith",
+      "position": "CTO",
+      "company": "Tech Innovations",
+      "rating": "⭐⭐⭐⭐⭐",
+      "review": "Proin aliquet libero a dolor suscipit, in varius urna tincidunt. Nam euismod leo non augue pretium, a venenatis eros scelerisque."
+    },
+    {
+      "name": "Alice Johnson",
+      "position": "CFO",
+      "company": "Finance Corp",
+      "rating": "⭐⭐⭐⭐⭐",
+      "review": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+    }
+  ]
+  
