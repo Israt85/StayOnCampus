@@ -5,8 +5,8 @@ import img3 from '../../assets/benefits3.jpg'
 const Benefits = () => {
     return (
         <div>
-              <h1 className="text-3xl mb-2 font-bold text-center">Benefits of StayOnCampus</h1>
-            <div className='w-full mx-auto justify-center h-full grid grid-cols-3 gap-2'>
+              <h1 className="text-3xl my-10 font-bold text-center">Benefits of StayOnCampus</h1>
+            <div className='w-full mx-auto justify-center h-full grid grid-cols-1 lg:grid-cols-3 gap-2'>
             <div className='flex flex-col justify-center items-center'>
             <div  className=''>
 <img className='w-40 h-40 rounded-full' src={img1} alt="" />

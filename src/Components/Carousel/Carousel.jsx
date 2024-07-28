@@ -22,7 +22,8 @@ export const Carousel3 = () => {
     const prevSlider = () => setCurrentSlider((currentSlider) => currentSlider === 0 ? sliders.length - 1 : currentSlider - 1);
     const nextSlider = () => setCurrentSlider((currentSlider) => currentSlider === sliders.length - 1 ? 0 : currentSlider + 1);
     return (
-        <div className="max-w-6xl mx-auto h-[540px] md:h-[540px] flex flex-col xl:flex-row items-center overflow-hidden gap-5 lg:gap-10 relative">
+        <div className="max-w-6xl mx-auto h-[300px] md:h-[400px] flex flex-col xl:flex-row items-center overflow-hidden gap-5 lg:gap-10 relative">
+             <h1 className="text-3xl text-center font-bold my-6" >What Our Client Say</h1>
             <div className="absolute w-full h-full flex items-center justify-between z-50 px-5">
                 {/* arrow left */}
                 <button onClick={prevSlider} className="flex justify-center items-center bg-white rounded-full w-6 h-6 md:w-8 md:h-8">
@@ -33,9 +34,9 @@ export const Carousel3 = () => {
                     <svg viewBox="0 0 1024 1024" className="w-4 h-4 md:w-6 md:h-6 icon" xmlns="http://www.w3.org/2000/svg" fill="#000000" transform="rotate(180)"><g strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#0095FF" d="M685.248 104.704a64 64 0 010 90.496L368.448 512l316.8 316.8a64 64 0 01-90.496 90.496L232.704 557.248a64 64 0 010-90.496l362.048-362.048a64 64 0 0190.496 0z"></path></g></svg>
                 </button>
             </div>
-            <h1 className="text-3xl text-center font-bold my-2" >What Our Client Say</h1>
+           
             {/* slider container */}
-            <div className="h-[540px] md:h-[670px] w-2/3 ml-auto relative ease-linear duration-500 flex items-center"
+            <div className="h-[540px] md:h-[670px] w-72 lg:w-2/3 ml-auto relative ease-linear duration-500 flex items-center"
                 style={{ transform: `translateX(-${currentSlider * 50}%)` }}>
                 {/* sliders */}
                 {sliders.map((slide, inx) => (
