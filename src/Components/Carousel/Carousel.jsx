@@ -41,7 +41,7 @@ export const Carousel3 = () => {
                 {/* sliders */}
                 {sliders.map((slide, inx) => (
                     <div key={inx}
-                        className={`${currentSlider === inx ? "h-[240px] sm:h-[310px] md:h-[480px] lg:h-[580px]" : "h-[220px] sm:h-[260px] md:h-[380px] lg:h-[480px] scale-95 opacity-40"} min-w-[50%] relative duration-200`}
+                        className={`${currentSlider === inx ? "h-[240px] sm:h-[310px] md:h-[480px] lg:h-[620px]" : "h-[220px] sm:h-[260px] md:h-[380px] lg:h-[580px] scale-95 opacity-40"} min-w-[50%] relative duration-200`}
                         style={{ perspective: "200px" }}>
                         <Reviews slide={slide}></Reviews>
                     </div>

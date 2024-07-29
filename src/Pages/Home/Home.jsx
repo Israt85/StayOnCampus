@@ -17,7 +17,6 @@ const Home = () => {
             <Features/>
             <Benefits/>
             <AccordionWithIndex></AccordionWithIndex>
-            <Footer5/>
         
         </div>
     );

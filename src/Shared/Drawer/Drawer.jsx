@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Drawer = () => {
     return (
@@ -25,8 +26,13 @@ const Drawer = () => {
           <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
           <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
             {/* Sidebar content here */}
-            <li><a>Sidebar Item 1</a></li>
-            <li><a>Sidebar Item 2</a></li>
+           <Link to='/'> <li className='p-3 text-xl border-b-2'>Home</li></Link>
+            <Link to='/about'><li className='p-3 text-xl border-b-2'>About Us</li></Link>
+            <li className='p-3 text-xl border-b-2'>Contact</li>
+            <li className='p-3 text-xl border-b-2'>Services</li>
+            <li className='p-3 text-xl border-b-2'>Rooms</li>
+            <li className='p-3 text-xl border-b-2'>Meals</li>
+
           </ul>
         </div>
       </div>
