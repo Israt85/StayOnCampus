@@ -1,8 +1,8 @@
 
 export default function Footer5(i) {
     return (
-        <footer className="flex flex-col text-black">
-            <div className="flex flex-col items-center justify-around gap-5 bg-gray-300 py-8 dark:bg-gray-500 dark:text-white md:flex-row md:gap-0">
+        <footer className="flex flex-col text-white">
+            <div className="flex flex-col items-center justify-around gap-5 bg-gray-900 py-8 dark:bg-gray-500 dark:text-white md:flex-row md:gap-0">
             <a className=" font-bold text-xl">StayOn<span className="text-[#5a4044]">Campus</span></a>
                 <nav className="text-lg">
                     <ul className=" flex h-full items-center justify-center gap-5">
