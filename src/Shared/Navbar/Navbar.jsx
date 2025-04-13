@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Drawer from "../Drawer/Drawer";
 
 
@@ -13,7 +14,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
             
-          <a className="btn rounded-3xl">Sign Up</a>
+          <Link to='/login'><a className="btn rounded-3xl">Login</a></Link>
         </div>
       </div>
     );

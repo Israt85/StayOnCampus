@@ -2,8 +2,8 @@
 
 const ContactForm = () => {
     return (
-        <div className="w-full flex justify-center items-center h-96">
-            <div className="w-80 h-full bg-[#2ecc71] text-slate-800">
+        <div className="w-full flex justify-center items-center my-6 h-96">
+            <div className="w-96 h-full bg-[#2ecc71] text-slate-800">
                <h2 className="text-center font-bold p-8 text-xl">L O C A T I O N</h2>
                <h2 className="text-center">Vienna, 123 street, 2nd floor</h2>
 
@@ -37,7 +37,7 @@ FOLLOW US
                 </nav>
             </div>
             <div className="w-96 h-full bg-slate-300">
-             <h2 className="px-6 pt-4 font-bold text-xl">CONTACT FORM</h2>
+             <h2 className="px-6 pt-4 font-bold text-xl">GET In TOUCH</h2>
              <div className="felex flex-col">
              <input className="w-72 my-4 mx-6" type="text" name="" id="" />
              <input className="w-72 mx-6" type="email" name="" id="" />
