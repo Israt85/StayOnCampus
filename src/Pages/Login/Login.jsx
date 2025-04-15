@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Login=()=>{
     return(
         <div className="w-full min-h-screen py-32 bg-slate-100">
@@ -6,7 +8,7 @@ const Login=()=>{
             <div className="w-96 text-black p-8 relative bg-[#2ecc71] [clip-path:polygon(100%_0%,0%_100%,0%_0%)]">
                  <h2 className="text-3xl">Welcome!</h2>
                  <p className="py-3">Create your account for free</p>
-                 <button className="btn rounded-md  btn-outline">Sign up</button>
+                <Link to='/signup'> <button className="btn rounded-md  btn-outline">Sign up</button></Link>
             </div>
         {/* right side */}
         <div className="w-72">
