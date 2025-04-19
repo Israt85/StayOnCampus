@@ -29,7 +29,7 @@ const Drawer = () => {
            <Link to='/'> <li className='p-3 text-xl border-b-2'>Home</li></Link>
             <Link to='/about'><li className='p-3 text-xl border-b-2'>About Us</li></Link>
             <Link to='/contact'><li className='p-3 text-xl border-b-2'>Contact</li></Link>
-            <li className='p-3 text-xl border-b-2'>Services</li>
+            <Link to='/services'><li className='p-3 text-xl border-b-2'>Services</li></Link>
             <li className='p-3 text-xl border-b-2'>Rooms</li>
             <li className='p-3 text-xl border-b-2'>Meals</li>
 
